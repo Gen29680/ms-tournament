@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 运行产物
+results/
+*.log
+run.log
+deep_run.log
+
+# 谱库与原始数据（不提交）
+*.mgf
+!examples/demo.mgf
+*.mzML
+*.json
+!examples/demo_db/*.json
+*.csv
+!examples/demo_db/*.csv
+
+# 临时
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
