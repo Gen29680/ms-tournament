@@ -1,0 +1,15 @@
+# 直接依赖（据 2026-11 运行环境核定）
+numpy>=1.24           # 实测 2.1.3
+pandas>=2.0           # 实测 2.2.3
+matplotlib>=3.7       # 实测 3.10.0
+joblib>=1.3           # 实测 1.4.2
+scipy>=1.10           # 实测 1.15.3
+matchms>=0.30         # 实测 0.30.2，提供 ModifiedCosine / NeutralLossCosine / CosineGreedy
+tqdm>=4.60            # 实测 4.67.1
+networkx>=3.2         # 实测 3.4.2
+rdkit                 # 实测 2024.9.6
+ujson
+spectral_entropy
+spectrum_utils
+ms_entropy>=1.3       # 实测 1.3.5，提供 FlashEntropySearch
+pyopenms>=3.4         # 实测 3.4.0，Linux 下建议 conda install -c bioconda pyopenms
